@@ -1,0 +1,119 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+:root {
+    --instagram:#E1306C;
+    --twitter:#1DA1F2;
+    --twitch:#6441A4;
+    --reddit:#FF4500;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-instagram {
+    color: var(--instagram);
+    transition: all 200ms ease-in-out
+}
+
+.text-twitter {
+    color: var(--twitter);
+    transition: all 200ms ease-in-out
+}
+
+.text-twitch{
+    color: var(--twitch);
+    transition: all 200ms ease-in-out
+}
+
+.text-reddit{
+    color: var(--reddit);
+    transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+}
+
+.text-instagram:hover, .text-twitter:hover, .text-twitch:hover, .text-reddit:hover {
+    color: #6c757d;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+#color-one {
+    min-height: 14rem;
+    transition: all 400ms ease-in-out;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+}
+
+#color-two {
+    min-height: 14rem;
+    transition: all 400ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+}
+
+#color-three {
+    min-height: 14rem;
+    transition: all 400ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+}
+
+#color-four {
+    min-height: 14rem;
+    transition: all 400ms ease-in-out;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+}
+
+.color-text {
+    transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+}
+
+
+.dice {
+    animation: dice 1s alternate infinite cubic-bezier(1, .27, .45, 1.26);
+    -webkit-animation: dice 1s alternate infinite cubic-bezier(1, .27, .45, 1.26);
+}
+
+@keyframes dice {
+
+    from {
+        transform: rotate(360deg) scale(1.05);
+        -webkit-transform: rotate(360deg) scale(1.05);
+        -moz-transform: rotate(360deg) scale(1.05);
+        -ms-transform: rotate(360deg) scale(1.05);
+        -o-transform: rotate(360deg) scale(1.05);
+    }
+
+    to {
+        transform: rotate(0deg) scale(.5);
+        -webkit-transform: rotate(0deg) scale(.5);
+        -moz-transform: rotate(0deg) scale(.5);
+        -ms-transform: rotate(0deg) scale(.5);
+        -o-transform: rotate(0deg) scale(.5);
+    }
+
+}
+
+.fs-sm {
+    font-size: .9rem;
+}
